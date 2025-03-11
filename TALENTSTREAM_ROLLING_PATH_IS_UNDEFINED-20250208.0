@@ -1,0 +1,467 @@
+08-02-2025_11:08:26.154{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+08-02-2025_11:08:26.186{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on DESKTOP-CH1S79I with PID 3136 (C:\Users\Dell\Desktop\SpringBoot\updatedBLBE\bitLabs_Mobile_BE\target\classes started by Dell in C:\Users\Dell\Desktop\SpringBoot\updatedBLBE\bitLabs_Mobile_BE)
+08-02-2025_11:08:26.188{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+08-02-2025_11:08:26.190{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+08-02-2025_11:08:28.120{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-02-2025_11:08:28.374{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 236 ms. Found 28 JPA repository interfaces.
+08-02-2025_11:08:29.773{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+08-02-2025_11:08:29.792{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+08-02-2025_11:08:29.793{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+08-02-2025_11:08:29.794{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+08-02-2025_11:08:30.102{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+08-02-2025_11:08:30.104{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 3801 ms
+08-02-2025_11:08:30.457{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+08-02-2025_11:08:30.560{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+08-02-2025_11:08:30.843{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-02-2025_11:08:31.012{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+08-02-2025_11:08:32.677{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+08-02-2025_11:08:32.733{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+08-02-2025_11:08:34.673{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-02-2025_11:08:34.692{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-02-2025_11:08:35.345{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+08-02-2025_11:08:36.314{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+08-02-2025_11:08:37.236{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+08-02-2025_11:08:38.107{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-02-2025_11:08:38.540{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a339bc1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7906de2f, org.springframework.security.web.context.SecurityContextPersistenceFilter@27e0906f, org.springframework.security.web.header.HeaderWriterFilter@62a9e9bf, org.springframework.security.web.authentication.logout.LogoutFilter@43b1fdb7, com.talentstream.filter.JwtRequestFilter@58f8ce0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f6c85c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@319c77de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@574f89bf, org.springframework.security.web.session.SessionManagementFilter@bf70ce5, org.springframework.security.web.access.ExceptionTranslationFilter@5ab45d66, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3818609f]
+08-02-2025_11:08:39.078{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+08-02-2025_11:08:39.122{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+08-02-2025_11:08:40.936{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+08-02-2025_11:08:40.944{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 15.642 seconds (JVM running for 18.732)
+08-02-2025_11:08:41.055{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-02-2025_11:08:41.056{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+08-02-2025_11:08:41.059{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 3 ms
+08-02-2025_11:08:41.096{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:08:41.097{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:08:41.097{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:09:00.684{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:09:00.685{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:09:00.685{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:09:00.800{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: godarshanreddy@gamil.com
+08-02-2025_11:09:00.811{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: godarshanreddy@gamil.com
+08-02-2025_11:09:01.050{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: godarshanreddy@gamil.com
+08-02-2025_11:09:01.191{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+08-02-2025_11:16:27.142{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:16:27.143{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:16:27.144{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:16:27.148{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: godarshanreddy@gamil.com
+08-02-2025_11:16:27.148{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: godarshanreddy@gamil.com
+08-02-2025_11:16:27.286{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: godarshanreddy@gamil.com
+08-02-2025_11:16:27.419{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+08-02-2025_11:18:03.371{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.371{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.371{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.542{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.542{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.542{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.547{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.867{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.867{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.869{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.894{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.894{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.894{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:03.912{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:03.912{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:03.912{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:18:04.006{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:18:04.006{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:18:04.006{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:19:39.689{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:354)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.talentstream.service.JwtUtil.extractAllClaims(JwtUtil.java:53)
+	at com.talentstream.service.JwtUtil.extractClaim(JwtUtil.java:46)
+	at com.talentstream.service.JwtUtil.extractUsername(JwtUtil.java:38)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+08-02-2025_11:19:43.626{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:19:43.629{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:19:43.629{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:19:43.634{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: godarshanreddy@gamil.com
+08-02-2025_11:19:43.634{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: godarshanreddy@gamil.com
+08-02-2025_11:19:43.778{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 42P05
+08-02-2025_11:19:43.778{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: prepared statement "S_1" already exists
+08-02-2025_11:19:43.802{UTC}|report-tool|ERROR||c.t.s.RegisterService|could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+08-02-2025_11:19:43.804{UTC}|report-tool|INFO ||c.t.s.RegisterService|Checking
+08-02-2025_11:19:43.804{UTC}|report-tool|INFO ||c.t.s.RegisterService|Able to return applicant
+08-02-2025_11:19:43.804{UTC}|report-tool|INFO ||c.t.s.RegisterService|Applicant is null
+08-02-2025_11:19:43.804{UTC}|report-tool|WARN ||c.t.c.RegisterController|Google Sign-In failed. No applicant found for email: godarshanreddy@gamil.com
+08-02-2025_11:19:47.039{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:19:47.043{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:19:47.043{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:19:47.043{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: godarshanreddy@gamil.com
+08-02-2025_11:19:47.051{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: godarshanreddy@gamil.com
+08-02-2025_11:19:47.184{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 42P05
+08-02-2025_11:19:47.184{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: prepared statement "S_2" already exists
+08-02-2025_11:19:47.184{UTC}|report-tool|ERROR||c.t.s.RegisterService|could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+08-02-2025_11:19:47.184{UTC}|report-tool|INFO ||c.t.s.RegisterService|Checking
+08-02-2025_11:19:47.184{UTC}|report-tool|INFO ||c.t.s.RegisterService|Able to return applicant
+08-02-2025_11:19:47.184{UTC}|report-tool|INFO ||c.t.s.RegisterService|Applicant is null
+08-02-2025_11:19:47.184{UTC}|report-tool|WARN ||c.t.c.RegisterController|Google Sign-In failed. No applicant found for email: godarshanreddy@gamil.com
+08-02-2025_11:19:49.391{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+08-02-2025_11:19:49.391{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+08-02-2025_11:19:49.391{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+08-02-2025_11:19:49.400{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: godarshanreddy@gamil.com
+08-02-2025_11:19:49.400{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: godarshanreddy@gamil.com
+08-02-2025_11:19:49.537{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: godarshanreddy@gamil.com
+08-02-2025_11:19:49.669{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+08-02-2025_11:20:03.302{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+08-02-2025_11:20:03.302{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnb2RhcnNoYW5yZWRkeUBnYW1pbC5jb20iLCJleHAiOjE3MzkyMDk3ODksImlhdCI6MTczODk5Mzc4OX0.K3A02n-1nRZVyi-m0AXOHF6pxrTEzUswsKQ1dNLVzy8
+08-02-2025_11:20:03.302{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnb2RhcnNoYW5yZWRkeUBnYW1pbC5jb20iLCJleHAiOjE3MzkyMDk3ODksImlhdCI6MTczODk5Mzc4OX0.K3A02n-1nRZVyi-m0AXOHF6pxrTEzUswsKQ1dNLVzy8
+08-02-2025_11:20:03.310{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: godarshanreddy@gamil.com
+08-02-2025_11:20:03.318{UTC}|report-tool|INFO ||c.t.c.FindRecommendedJobController|Count of recommended jobs for applicant 7 retrieved successfully:
+08-02-2025_11:20:05.033{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.033{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.035{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.035{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.035{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.035{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.035{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.037{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.037{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.037{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.037{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.037{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.039{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.039{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.039{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.039{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.040{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.041{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.046{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.047{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.048{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.048{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.048{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.048{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.049{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.051{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.056{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.056{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.056{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.056{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.056{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.056{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.056{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.057{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.060{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.061{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.064{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.065{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.067{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.067{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.067{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.067{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.068{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_11:20:05.072{UTC}|report-tool|INFO ||c.t.s.FinRecommendedJobService|
+08-02-2025_13:34:52.127{UTC}|report-tool|WARN ||c.z.h.p.HikariPool|HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m18s485ms555µs900ns).
+08-02-2025_13:36:39.493{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+08-02-2025_13:36:39.527{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-8081"]
+08-02-2025_13:36:39.527{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+08-02-2025_13:36:39.530{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+08-02-2025_13:36:39.540{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+08-02-2025_13:36:39.542{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-8081"]
+08-02-2025_13:36:39.547{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-8081"]
+08-02-2025_13:36:39.579{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+08-02-2025_13:36:39.583{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+08-02-2025_13:36:39.592{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
